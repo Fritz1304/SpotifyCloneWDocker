@@ -1,0 +1,20 @@
+spring.application.name=SpotifyClone
+
+#MongoDB config
+
+spring.data.mongodb.uri=
+
+#cloudinary config
+cloudinary.cloud-name=
+cloudinary.api-key=
+cloudinary.api-secret=
+
+#File upload configuration C:
+spring.servlet.multipart.max-file-size=
+spring.servlet.multipart.max-request-size=
+
+
+#jwt Information
+jwt.secret=
+#Token will be active for 24 hours
+jwt.expiration = 
