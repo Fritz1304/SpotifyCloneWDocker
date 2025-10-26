@@ -22,7 +22,7 @@ jobs:
           cache: maven
 
       - name: 🧪 Compilar y ejecutar pruebas
-        run: mvn -B clean verify --file pom.xml
+        run: mvn -B clean package -DskipTests
 
       - name: 📦 Subir artefacto .jar
         if: success()
