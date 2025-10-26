@@ -70,6 +70,8 @@ public class SecurityConfig {
 	    public PasswordEncoder passwordEncoder() {
 	        return new BCryptPasswordEncoder();
 	    }
+	    
+	    //comment to see if my actions is working
 
 //	    @Bean
 //	    public AuthenticationManager authenticationManager() throws Exception {
